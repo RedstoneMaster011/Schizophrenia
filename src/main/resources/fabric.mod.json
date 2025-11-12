@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "schizophrenia",
+  "version": "${version}",
+  "name": "Schizophrenia",
+  "description": "a mod that slowly makes you go insane.",
+  "authors": ["RedstoneMaster01"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/schizophrenia/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "dev.redstone.schizophrenia.client.SchizophreniaDataGenerator"
+    ],
+    "client": [
+      "dev.redstone.schizophrenia.client.SchizophreniaClient"
+    ],
+    "main": [
+      "dev.redstone.schizophrenia.Schizophrenia"
+    ]
+  },
+  "mixins": [
+    "schizophrenia.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
