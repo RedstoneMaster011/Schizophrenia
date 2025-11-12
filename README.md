@@ -1,1 +1,3 @@
 this is a mod that makes you slowly go insane....
+
+<img src="src/main/resources/assets/schizophrenia/icon.png" alt="icon" width="128">
