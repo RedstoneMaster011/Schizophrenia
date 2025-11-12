@@ -1,9 +1,8 @@
-package dev.redstone.schizophrenia.inv;
+package dev.redstone.schizophrenia.player;
 
 import dev.redstone.schizophrenia.config.SchizoConfigs;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.item.*;
-import net.minecraft.recipe.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.server.network.ServerPlayerEntity;
 

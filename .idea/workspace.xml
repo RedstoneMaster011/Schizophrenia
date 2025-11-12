@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="test" />
+    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/player/ReplaceItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/Schizophrenia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/Schizophrenia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/inv/ItemEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/player/ItemEditor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +77,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="35OJOUJ2FiM1Usn8IFLuN36z3OH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
