@@ -4,7 +4,7 @@ import dev.redstone.schizophrenia.config.SchizoConfigs;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.minecraft.server.network.ServerPlayerEntity;
 
-public class ReplaceItem {
+public class ReplaceItemTick {
 
     private static int tickC = 0;
 
