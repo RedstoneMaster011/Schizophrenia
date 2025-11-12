@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Schizophrenia.iml" filepath="$PROJECT_DIR$/.idea/modules/Schizophrenia.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Schizophrenia.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Schizophrenia.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Schizophrenia.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Schizophrenia.test.iml" />
     </modules>
