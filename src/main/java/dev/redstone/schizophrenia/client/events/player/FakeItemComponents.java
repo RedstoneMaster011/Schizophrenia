@@ -1,4 +1,4 @@
-package dev.redstone.schizophrenia.client;
+package dev.redstone.schizophrenia.client.events.player;
 
 import net.minecraft.component.ComponentType;
 import net.minecraft.network.codec.PacketCodecs;

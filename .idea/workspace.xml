@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="changed to random instead of tick">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schizophrenia.client.mixins.json" afterDir="false" />
+    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="changed some events.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/events/player/Clone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/events/player/CloneRenderer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/Schizophrenia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/Schizophrenia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/FakeItemChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/events/player/FakeItemChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/FakeItemComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/events/player/FakeItemComponents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/SchizophreniaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/SchizophreniaClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/mixin/ItemRendererMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/mixin/ItemRendererMixin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/mixin/HandledScreenAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/mixin/HandledScreenAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/mixin/ItemRendererMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/mixin/ItemRendererMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/player/ItemEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/events/player/ItemEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/player/ReplaceItemTick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/events/player/ReplaceItemTick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/schizophrenia.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schizophrenia.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,29 +87,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Gradle.Build Schizophrenia.executor": "Run",
-    "Gradle.C:/Users/Lucas/Desktop/ModdingFiles/Schizophrenia [wrapper].executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.Schizophrenia [:net.fabricmc.devlaunchinjector.Main.main()].executor": "Debug",
-    "Gradle.Schizophrenia [clean].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Lucas/Desktop/ModdingFiles/Schizophrenia/src/main/resources",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.Build Schizophrenia.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.C:/Users/Lucas/Desktop/ModdingFiles/Schizophrenia [wrapper].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Schizophrenia [:net.fabricmc.devlaunchinjector.Main.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.Schizophrenia [clean].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lucas/Desktop/ModdingFiles/Schizophrenia/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lucas\Desktop\ModdingFiles\Schizophrenia\src\main\resources" />
@@ -266,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762993992844</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="changed some events.">
+      <option name="closed" value="true" />
+      <created>1762996011754</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1762996011754</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -279,6 +285,7 @@
     <MESSAGE value="finily removed /run/" />
     <MESSAGE value="added event FakeItem, chance for an items texture to change to an error one for a small amount of time: changed the configs to be better" />
     <MESSAGE value="changed to random instead of tick" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed to random instead of tick" />
+    <MESSAGE value="changed some events." />
+    <option name="LAST_COMMIT_MESSAGE" value="changed some events." />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package dev.redstone.schizophrenia.client;
+package dev.redstone.schizophrenia.client.events.player;
 
 import dev.redstone.schizophrenia.config.SchizoConfigs;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;

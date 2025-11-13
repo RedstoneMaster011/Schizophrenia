@@ -1,6 +1,6 @@
 package dev.redstone.schizophrenia.client.mixin;
 
-import dev.redstone.schizophrenia.client.FakeItemChange;
+import dev.redstone.schizophrenia.client.events.player.FakeItemChange;
 import dev.redstone.schizophrenia.config.SchizoConfigs;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawContext;

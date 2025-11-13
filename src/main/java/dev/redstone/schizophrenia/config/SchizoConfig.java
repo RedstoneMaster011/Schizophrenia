@@ -59,6 +59,23 @@ public class SchizoConfig extends Config {
             public int TimeForFakeItem = 30;
 
         }
+
+        @Name("Clone")
+        public CloneSection CloneSection = new CloneSection();
+
+        public static class CloneSection extends ConfigSection {
+
+            public CloneSection() {
+                super();
+            }
+
+            @Comment("if the mod does the event Clone")
+            public boolean Clone = true;
+
+            @Comment("a 1 in <val> chance for the event Clone to run.")
+            public int ChanceForClone = 80;
+
+        }
     }
 
 
