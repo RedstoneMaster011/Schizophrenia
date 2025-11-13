@@ -44,6 +44,7 @@ public class DayCountState extends PersistentState {
         if (currentDay > lastRecordedDay) {
             lastRecordedDay = currentDay;
             dayCount++;
+            System.out.println("NEW DAY!! Day: " + dayCount);
             markDirty();
         }
     }
