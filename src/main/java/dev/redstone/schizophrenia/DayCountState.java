@@ -49,9 +49,6 @@ public class DayCountState extends PersistentState {
             lastRecordedDay = currentDay;
             dayCount++;
             cachedDayCount = dayCount;
-            System.out.println("NEW DAY!! Day: " + dayCount);
-            System.out.println("NEW DAY!! getDayUpdateConfig: " + (int) (getDayUpdateConfig()));
-            System.out.println("NEW DAY!! templatemath: " + (int) (SchizoConfigs.SchizoConfig.EventsSection.SoundSection.ChanceForSound / getDayUpdateConfig()));
             markDirty();
         }
     }

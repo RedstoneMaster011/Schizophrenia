@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="okay now it really does work the more you play the more it happens">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="fixed a game crashing but on day 1581 or higher.">
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/DayCountState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/DayCountState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -373,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763068750780</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="fixed a game crashing but on day 1581 or higher.">
+      <option name="closed" value="true" />
+      <created>1763069273110</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1763069273110</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -400,6 +407,7 @@
     <MESSAGE value="added more common the more you play i think!!!" />
     <MESSAGE value="smh to test" />
     <MESSAGE value="okay now it really does work the more you play the more it happens" />
-    <option name="LAST_COMMIT_MESSAGE" value="okay now it really does work the more you play the more it happens" />
+    <MESSAGE value="fixed a game crashing but on day 1581 or higher." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed a game crashing but on day 1581 or higher." />
   </component>
 </project>
