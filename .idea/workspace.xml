@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="added event Sound">
+    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="edited some configs and ItemEditor.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/events/player/ItemEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/events/player/ItemEditor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763061155857</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="edited some configs and ItemEditor.java">
+      <option name="closed" value="true" />
+      <created>1763062340050</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1763062340050</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -335,6 +342,7 @@
     <MESSAGE value="added event CameraMove and fixed" />
     <MESSAGE value="configs" />
     <MESSAGE value="added event Sound" />
-    <option name="LAST_COMMIT_MESSAGE" value="added event Sound" />
+    <MESSAGE value="edited some configs and ItemEditor.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited some configs and ItemEditor.java" />
   </component>
 </project>
