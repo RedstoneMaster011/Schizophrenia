@@ -28,7 +28,6 @@ public class Sound {
         if (random.nextInt(SchizoConfigs.SchizoConfig.EventsSection.SoundSection.ChanceForSound) == 0) {
             List<ServerPlayerEntity> players = server.getPlayerManager().getPlayerList();
             if (!players.isEmpty()) {
-                System.out.println(SchizoConfigs.SchizoConfig.EventsSection.SoundSection.ChanceForSound);
                 ServerPlayerEntity target = players.get(random.nextInt(players.size()));
                 Identifier soundId = sounds.get(random.nextInt(sounds.size()));
                 SoundEvent sound = SoundEvent.of(soundId);
