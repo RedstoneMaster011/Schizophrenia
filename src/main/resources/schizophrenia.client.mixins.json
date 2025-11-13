@@ -1,9 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "dev.redstone.schizophrenia.mixin",
+  "package": "dev.redstone.schizophrenia.client.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [
+  "client": [
+    "HandledScreenAccessor",
+    "ItemRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1

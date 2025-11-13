@@ -1,7 +1,6 @@
 package dev.redstone.schizophrenia.config;
 
 import me.fzzyhmstrs.fzzy_config.annotations.Comment;
-import me.fzzyhmstrs.fzzy_config.annotations.Inline;
 import me.fzzyhmstrs.fzzy_config.api.FileType;
 import me.fzzyhmstrs.fzzy_config.api.SaveType;
 import me.fzzyhmstrs.fzzy_config.config.Config;
@@ -37,7 +36,7 @@ public class SchizoConfig extends Config {
             public boolean InventoryReplacement = true;
 
             @Comment("a 1 in <val> chance for the event Inventory Replacement to run.")
-            public int ChanceForInventoryReplacement = 100;
+            public int ChanceForInventoryReplacement = 450;
 
         }
 
@@ -49,6 +48,7 @@ public class SchizoConfig extends Config {
             public FakeItemSection() {
                 super();
             }
+
             @Comment("if the mod does the event Fake Item")
             public boolean FakeItem = true;
 

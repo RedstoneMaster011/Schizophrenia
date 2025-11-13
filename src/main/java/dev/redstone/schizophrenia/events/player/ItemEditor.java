@@ -1,4 +1,4 @@
-package dev.redstone.schizophrenia.player;
+package dev.redstone.schizophrenia.events.player;
 
 import dev.redstone.schizophrenia.config.SchizoConfigs;
 import net.minecraft.entity.player.PlayerInventory;

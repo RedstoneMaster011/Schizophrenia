@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="added event FakeItem, chance for an items texture to change to an error one for a small amount of time: changed the configs to be better">
+    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="changed to random instead of tick">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/schizophrenia.client.mixins.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/Schizophrenia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/Schizophrenia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/player/ReplaceItemTick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/player/ReplaceItemTick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/mixin/HandledScreenAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/mixin/HandledScreenAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/mixin/ItemRendererMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/mixin/ItemRendererMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/player/ItemEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/events/player/ItemEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/player/ReplaceItemTick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/events/player/ReplaceItemTick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schizophrenia.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schizophrenia.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +105,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Lucas/Desktop/ModdingFiles/Schizophrenia/src/main/resources",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -105,11 +113,15 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lucas\Desktop\ModdingFiles\Schizophrenia\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lucas\Desktop\ModdingFiles\Schizophrenia\src\main\resources\assets\schizophrenia\textures\item" />
       <recent name="C:\Users\Lucas\Desktop\ModdingFiles\Schizophrenia\run\mods" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dev.redstone.schizophrenia.player" />
       <recent name="dev.redstone.schizophrenia.config" />
     </key>
   </component>
@@ -246,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762993480799</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="changed to random instead of tick">
+      <option name="closed" value="true" />
+      <created>1762993992844</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1762993992844</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -258,6 +278,7 @@
     <MESSAGE value="forgot smth" />
     <MESSAGE value="finily removed /run/" />
     <MESSAGE value="added event FakeItem, chance for an items texture to change to an error one for a small amount of time: changed the configs to be better" />
-    <option name="LAST_COMMIT_MESSAGE" value="added event FakeItem, chance for an items texture to change to an error one for a small amount of time: changed the configs to be better" />
+    <MESSAGE value="changed to random instead of tick" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed to random instead of tick" />
   </component>
 </project>

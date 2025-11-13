@@ -1,4 +1,4 @@
-package dev.redstone.schizophrenia.mixin;
+package dev.redstone.schizophrenia.client.mixin;
 
 import net.minecraft.client.gui.screen.ingame.HandledScreen;
 import org.spongepowered.asm.mixin.Mixin;

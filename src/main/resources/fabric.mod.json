@@ -21,7 +21,8 @@
     ]
   },
   "mixins": [
-    "schizophrenia.mixins.json"
+    "schizophrenia.mixins.json",
+    "schizophrenia.client.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",

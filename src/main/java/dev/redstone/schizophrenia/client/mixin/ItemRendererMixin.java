@@ -1,4 +1,4 @@
-package dev.redstone.schizophrenia.mixin;
+package dev.redstone.schizophrenia.client.mixin;
 
 import dev.redstone.schizophrenia.client.FakeItemChange;
 import dev.redstone.schizophrenia.config.SchizoConfigs;
