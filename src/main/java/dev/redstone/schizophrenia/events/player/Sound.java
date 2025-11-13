@@ -5,6 +5,7 @@ import dev.redstone.schizophrenia.config.SchizoConfigs;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.network.ServerPlayerEntity;
+import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 
@@ -24,7 +25,7 @@ public class Sound {
 
     private static void onTick(MinecraftServer server) {
 
-        DayCountState DayCountState = new DayCountState();
+
         double result = DayCountState.getDayUpdateConfig();
 
         if (!SchizoConfigs.SchizoConfig.EventsSection.SoundSection.Sound) return;

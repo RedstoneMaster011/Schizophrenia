@@ -14,6 +14,7 @@ public class DayCountState extends PersistentState {
     private static final String KEY = "day_count";
     private long lastRecordedDay = -1;
     private int dayCount = 0;
+    private static int cachedDayCount = 0;
 
     private static final Type<DayCountState> TYPE = new Type<>(
 
@@ -22,7 +23,10 @@ public class DayCountState extends PersistentState {
             DataFixTypes.LEVEL
     );
 
-    public DayCountState(NbtCompound nbtCompound, RegistryWrapper.WrapperLookup wrapperLookup) {}
+    public DayCountState(NbtCompound nbt, RegistryWrapper.WrapperLookup registryLookup) {
+        this.dayCount = nbt.getInt("count");
+        this.lastRecordedDay = nbt.getLong("last_day");
+    }
 
     public static DayCountState get(ServerWorld world) {
         return world.getPersistentStateManager().getOrCreate(TYPE, KEY);
@@ -44,7 +48,7 @@ public class DayCountState extends PersistentState {
         if (currentDay > lastRecordedDay) {
             lastRecordedDay = currentDay;
             dayCount++;
-            System.out.println("NEW DAY!! Day: " + dayCount);
+            cachedDayCount = dayCount;
             markDirty();
         }
     }
@@ -53,15 +57,14 @@ public class DayCountState extends PersistentState {
         return dayCount;
     }
 
-    public double getDayUpdateConfig() {
-
+    public static double getDayUpdateConfig() {
         double dayc = 1;
-
-        for (int day = 0; day < getDayCount(); day++) {
-            dayc = dayc + SchizoConfigs.SchizoConfig.AmountPerDayToIncreaseBy;
+        for (int day = 0; day < cachedDayCount; day++) {
+            dayc += SchizoConfigs.SchizoConfig.AmountPerDayToIncreaseBy;
         }
         return dayc;
     }
+
 
     public static void init() {
 

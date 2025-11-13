@@ -16,7 +16,6 @@ public class CameraEditor {
     public static void init() {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
 
-            DayCountState DayCountState = new DayCountState();
             double result = DayCountState.getDayUpdateConfig();
 
             if (!SchizoConfigs.SchizoConfig.EventsSection.CameraMoveSection.CameraMove) return;

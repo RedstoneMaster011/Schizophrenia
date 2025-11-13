@@ -18,20 +18,26 @@ public class FakeItemChange {
     private static boolean triggered = false;
 
     public static void init() {
+
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
-            DayCountState DayCountState = new DayCountState();
+
             double result = DayCountState.getDayUpdateConfig();
+
             if (client.currentScreen instanceof HandledScreen<?> screen && !triggered) {
+
                 triggered = true;
                 if(!SchizoConfigs.SchizoConfig.EventsSection.FakeItemSection.FakeItem) return;
 
                 if (new Random().nextInt((int) (SchizoConfigs.SchizoConfig.EventsSection.FakeItemSection.ChanceForFakeItem / result)) == 0) {
+
                     ScreenHandler handler = screen.getScreenHandler();
                     List<Slot> slots = handler.slots;
                     if (!slots.isEmpty()) {
+
                         Slot slot = slots.get(new Random().nextInt(slots.size()));
                         ItemStack stack = slot.getStack();
                         if (!stack.isEmpty()) {
+
                             glitchedStacks.put(stack, System.currentTimeMillis());
                         }
                     }

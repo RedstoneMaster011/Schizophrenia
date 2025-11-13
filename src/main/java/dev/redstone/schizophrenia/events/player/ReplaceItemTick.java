@@ -16,7 +16,6 @@ public class ReplaceItemTick {
 
         ServerTickEvents.END_SERVER_TICK.register(server -> {
 
-            DayCountState DayCountState = new DayCountState();
             double result = DayCountState.getDayUpdateConfig();
 
             if (random.nextInt((int) (SchizoConfigs.SchizoConfig.EventsSection.InventoryReplacementSection.ChanceForInventoryReplacement / result)) == 0) {

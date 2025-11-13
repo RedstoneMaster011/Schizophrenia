@@ -48,7 +48,6 @@ public class Clone {
 
     public static boolean shouldRenderGhost() {
 
-        DayCountState DayCountState = new DayCountState();
         double result = DayCountState.getDayUpdateConfig();
 
         Random random = new Random();
