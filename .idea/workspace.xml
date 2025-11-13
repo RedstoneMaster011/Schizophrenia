@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="changed some events.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/events/player/Clone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/events/player/CloneRenderer.java" afterDir="false" />
+    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="added Clone event, if turn to fast chance to spawn a clone then remove it fast in the cornner of screen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/FakeItemChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/events/player/FakeItemChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/FakeItemComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/events/player/FakeItemComponents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/SchizophreniaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/SchizophreniaClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/mixin/ItemRendererMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/mixin/ItemRendererMixin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -272,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762996011754</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added Clone event, if turn to fast chance to spawn a clone then remove it fast in the cornner of screen">
+      <option name="closed" value="true" />
+      <created>1762999407339</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1762999407339</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -286,6 +288,7 @@
     <MESSAGE value="added event FakeItem, chance for an items texture to change to an error one for a small amount of time: changed the configs to be better" />
     <MESSAGE value="changed to random instead of tick" />
     <MESSAGE value="changed some events." />
-    <option name="LAST_COMMIT_MESSAGE" value="changed some events." />
+    <MESSAGE value="added Clone event, if turn to fast chance to spawn a clone then remove it fast in the cornner of screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Clone event, if turn to fast chance to spawn a clone then remove it fast in the cornner of screen" />
   </component>
 </project>

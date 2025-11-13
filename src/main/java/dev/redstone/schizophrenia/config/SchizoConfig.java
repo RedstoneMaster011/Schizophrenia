@@ -56,7 +56,7 @@ public class SchizoConfig extends Config {
             public int ChanceForFakeItem = 30;
 
             @Comment("how many ms before the texture reverts for event FakeItem")
-            public int TimeForFakeItem = 30;
+            public int TimeForFakeItem = 50;
 
         }
 
