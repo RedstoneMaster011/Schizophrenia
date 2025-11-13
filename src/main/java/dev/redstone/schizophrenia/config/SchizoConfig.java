@@ -36,7 +36,7 @@ public class SchizoConfig extends Config {
             public boolean InventoryReplacement = true;
 
             @Comment("a 1 in <val> chance for the event Inventory Replacement to run.")
-            public int ChanceForInventoryReplacement = 450;
+            public int ChanceForInventoryReplacement = 1250;
 
         }
 
@@ -53,7 +53,7 @@ public class SchizoConfig extends Config {
             public boolean FakeItem = true;
 
             @Comment("a 1 in <val> chance for the event Fake Item to run.")
-            public int ChanceForFakeItem = 30;
+            public int ChanceForFakeItem = 50;
 
             @Comment("how many ms before the texture reverts for event Fake Item")
             public int TimeForFakeItem = 50;
@@ -73,7 +73,7 @@ public class SchizoConfig extends Config {
             public boolean Clone = true;
 
             @Comment("a 1 in <val> chance for the event Clone to run.")
-            public int ChanceForClone = 80;
+            public int ChanceForClone = 100;
 
         }
 
@@ -90,7 +90,7 @@ public class SchizoConfig extends Config {
             public boolean CameraMove = true;
 
             @Comment("a 1 in <val> chance for the event Camera Move to run.")
-            public int ChanceForCameraMove = 350;
+            public int ChanceForCameraMove = 850;
 
             @Comment("how many ms before the texture reverts for event Camera Move")
             public int AmountForCameraMove = 5;
