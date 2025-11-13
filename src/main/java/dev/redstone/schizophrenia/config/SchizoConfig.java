@@ -93,7 +93,7 @@ public class SchizoConfig extends Config {
             public int ChanceForCameraMove = 350;
 
             @Comment("how many ms before the texture reverts for event Camera Move")
-            public int AmountForCameraMove = 50;
+            public int AmountForCameraMove = 5;
 
         }
     }
