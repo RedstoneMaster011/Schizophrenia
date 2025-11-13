@@ -5,6 +5,8 @@ import me.fzzyhmstrs.fzzy_config.api.FileType;
 import me.fzzyhmstrs.fzzy_config.api.SaveType;
 import me.fzzyhmstrs.fzzy_config.config.Config;
 import me.fzzyhmstrs.fzzy_config.config.ConfigSection;
+import me.fzzyhmstrs.fzzy_config.validation.collection.ValidatedList;
+import me.fzzyhmstrs.fzzy_config.validation.minecraft.ValidatedIdentifier;
 import net.minecraft.util.Identifier;
 
 
@@ -92,9 +94,35 @@ public class SchizoConfig extends Config {
             @Comment("a 1 in <val> chance for the event Camera Move to run.")
             public int ChanceForCameraMove = 850;
 
-            @Comment("how many ms before the texture reverts for event Camera Move")
+            @Comment("how many px the event Camera Moves")
             public int AmountForCameraMove = 5;
 
+        }
+
+        @Name("Sound")
+        public SoundSection SoundSection = new SoundSection();
+
+        public static class SoundSection extends ConfigSection {
+
+            public SoundSection() {
+                super();
+            }
+
+            @Comment("if the mod does the event Sound")
+            public boolean Sound = true;
+
+            @Comment("a 1 in <val> chance for the event Sound to run.")
+            public int ChanceForSound = 850;
+
+
+            @Comment("list of sounds for event Sound")
+            public ValidatedList<Identifier> sounds = new ValidatedIdentifier().toList(
+                    Identifier.of("minecraft:entity.creeper.primed"),
+                    Identifier.of("minecraft:block.stone.break"),
+                    Identifier.of("minecraft:block.stone.step"),
+                    Identifier.of("minecraft:ambient.cave"),
+                    Identifier.of("minecraft:entity.egg.throw")
+            );
         }
     }
 
