@@ -3,9 +3,7 @@ package dev.redstone.schizophrenia.events.player;
 import dev.redstone.schizophrenia.config.SchizoConfigs;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.item.*;
-import net.minecraft.registry.Registries;
 import net.minecraft.server.network.ServerPlayerEntity;
-import net.minecraft.util.Identifier;
 
 import java.util.List;
 import java.util.Random;
@@ -54,23 +52,8 @@ public class ItemEditor {
     }
 
     public static List<Item> Items() {
+
         return List.of(
-                Items.DIAMOND_SWORD, Items.DIAMOND_PICKAXE, Items.DIAMOND_AXE, Items.DIAMOND_SHOVEL,
-                Items.IRON_SWORD, Items.IRON_PICKAXE, Items.IRON_AXE, Items.IRON_SHOVEL,
-                Items.STONE_SWORD, Items.STONE_PICKAXE, Items.STONE_AXE, Items.STONE_SHOVEL,
-                Items.WOODEN_SWORD, Items.WOODEN_PICKAXE, Items.WOODEN_AXE, Items.WOODEN_SHOVEL,
-                Items.GOLDEN_SWORD, Items.GOLDEN_PICKAXE, Items.GOLDEN_AXE, Items.GOLDEN_SHOVEL,
-
-                Items.DIAMOND_HELMET, Items.DIAMOND_CHESTPLATE, Items.DIAMOND_LEGGINGS, Items.DIAMOND_BOOTS,
-                Items.IRON_HELMET, Items.IRON_CHESTPLATE, Items.IRON_LEGGINGS, Items.IRON_BOOTS,
-                Items.GOLDEN_HELMET, Items.GOLDEN_CHESTPLATE, Items.GOLDEN_LEGGINGS, Items.GOLDEN_BOOTS,
-                Items.LEATHER_HELMET, Items.LEATHER_CHESTPLATE, Items.LEATHER_LEGGINGS, Items.LEATHER_BOOTS,
-                Items.CHAINMAIL_HELMET, Items.CHAINMAIL_CHESTPLATE, Items.CHAINMAIL_LEGGINGS, Items.CHAINMAIL_BOOTS,
-
-                Items.BOW, Items.CROSSBOW, Items.TRIDENT, Items.SHIELD, Items.FISHING_ROD,
-                Items.FLINT_AND_STEEL, Items.SHEARS, Items.BUCKET, Items.WATER_BUCKET, Items.LAVA_BUCKET,
-                Items.MILK_BUCKET, Items.AXOLOTL_BUCKET, Items.SALMON_BUCKET, Items.TROPICAL_FISH_BUCKET,
-
                 Items.TORCH, Items.COOKED_BEEF, Items.COOKED_PORKCHOP, Items.BREAD, Items.APPLE,
                 Items.GOLDEN_APPLE, Items.CARROT, Items.POTATO, Items.BAKED_POTATO, Items.COOKED_CHICKEN,
                 Items.COOKED_MUTTON, Items.COOKED_SALMON, Items.COOKED_COD,

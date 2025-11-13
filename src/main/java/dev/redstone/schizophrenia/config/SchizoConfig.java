@@ -38,7 +38,7 @@ public class SchizoConfig extends Config {
             public boolean InventoryReplacement = true;
 
             @Comment("a 1 in <val> chance for the event Inventory Replacement to run.")
-            public int ChanceForInventoryReplacement = 1250;
+            public int ChanceForInventoryReplacement = 1500;
 
         }
 
@@ -75,7 +75,7 @@ public class SchizoConfig extends Config {
             public boolean Clone = true;
 
             @Comment("a 1 in <val> chance for the event Clone to run.")
-            public int ChanceForClone = 100;
+            public int ChanceForClone = 80;
 
         }
 
@@ -92,7 +92,7 @@ public class SchizoConfig extends Config {
             public boolean CameraMove = true;
 
             @Comment("a 1 in <val> chance for the event Camera Move to run.")
-            public int ChanceForCameraMove = 850;
+            public int ChanceForCameraMove = 1500;
 
             @Comment("how many px the event Camera Moves")
             public int AmountForCameraMove = 5;
@@ -112,7 +112,7 @@ public class SchizoConfig extends Config {
             public boolean Sound = true;
 
             @Comment("a 1 in <val> chance for the event Sound to run.")
-            public int ChanceForSound = 850;
+            public int ChanceForSound = 1500;
 
 
             @Comment("list of sounds for event Sound")
