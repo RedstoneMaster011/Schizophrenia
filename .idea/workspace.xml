@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="fixed a game crashing but on day 1581 or higher">
+    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="more config changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -389,11 +389,18 @@
       <option name="project" value="LOCAL" />
       <updated>1763070131468</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="more config changes">
+      <option name="closed" value="true" />
+      <created>1763071453846</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1763071453846</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
     <MESSAGE value="moved some code around" />
     <MESSAGE value="renamed ReplaceItem ReplaceItemTick" />
     <MESSAGE value="changed gradle.properties" />
@@ -418,6 +425,7 @@
     <MESSAGE value="okay now it really does work the more you play the more it happens" />
     <MESSAGE value="fixed a game crashing but on day 1581 or higher." />
     <MESSAGE value="fixed a game crashing but on day 1581 or higher" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed a game crashing but on day 1581 or higher" />
+    <MESSAGE value="more config changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="more config changes" />
   </component>
 </project>
