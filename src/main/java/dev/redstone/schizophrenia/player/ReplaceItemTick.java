@@ -4,16 +4,16 @@ import dev.redstone.schizophrenia.config.SchizoConfigs;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.minecraft.server.network.ServerPlayerEntity;
 
+import java.util.Random;
+
 public class ReplaceItemTick {
 
-    private static int tickC = 0;
+    static Random random = new Random();
 
     public static void init() {
 
         ServerTickEvents.END_SERVER_TICK.register(server -> {
-            tickC++;
-            if (tickC >= SchizoConfigs.SchizoConfig.EventsSection.InventoryReplacementSection.InventoryReplacementTimer * 20) {
-                tickC = 0;
+            if (random.nextInt(SchizoConfigs.SchizoConfig.EventsSection.InventoryReplacementSection.ChanceForInventoryReplacement) == 0) {
                 for (ServerPlayerEntity player : server.getPlayerManager().getPlayerList()) {
                     ItemEditor.ReplaceItemSlot(player);
                 }

@@ -36,8 +36,8 @@ public class SchizoConfig extends Config {
             @Comment("if the mod does the event Inventory Replacement")
             public boolean InventoryReplacement = true;
 
-            @Comment("how long it takes for this to replace your items in secs")
-            public int InventoryReplacementTimer = 150;
+            @Comment("a 1 in <val> chance for the event Inventory Replacement to run.")
+            public int ChanceForInventoryReplacement = 100;
 
         }
 
@@ -52,7 +52,7 @@ public class SchizoConfig extends Config {
             @Comment("if the mod does the event Fake Item")
             public boolean FakeItem = true;
 
-            @Comment("a 1 in <val> chance for the event FakeItem to run.")
+            @Comment("a 1 in <val> chance for the event Fake Item to run.")
             public int ChanceForFakeItem = 30;
 
             @Comment("how many ms before the texture reverts for event FakeItem")

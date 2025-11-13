@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="finily removed /run/">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/FakeItemChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/FakeItemComponents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/mixin/HandledScreenAccessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/mixin/ItemRendererMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/schizophrenia/textures/item/fakeitem.png" afterDir="false" />
+    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="added event FakeItem, chance for an items texture to change to an error one for a small amount of time: changed the configs to be better">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/SchizophreniaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/SchizophreniaClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/player/ItemEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/player/ItemEditor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/player/ReplaceItemTick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/player/ReplaceItemTick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/schizophrenia.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schizophrenia.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762989318722</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added event FakeItem, chance for an items texture to change to an error one for a small amount of time: changed the configs to be better">
+      <option name="closed" value="true" />
+      <created>1762993480799</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1762993480799</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -257,6 +257,7 @@
     <MESSAGE value="changed README.md" />
     <MESSAGE value="forgot smth" />
     <MESSAGE value="finily removed /run/" />
-    <option name="LAST_COMMIT_MESSAGE" value="finily removed /run/" />
+    <MESSAGE value="added event FakeItem, chance for an items texture to change to an error one for a small amount of time: changed the configs to be better" />
+    <option name="LAST_COMMIT_MESSAGE" value="added event FakeItem, chance for an items texture to change to an error one for a small amount of time: changed the configs to be better" />
   </component>
 </project>
