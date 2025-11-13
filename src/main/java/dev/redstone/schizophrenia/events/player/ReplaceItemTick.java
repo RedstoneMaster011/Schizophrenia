@@ -1,5 +1,6 @@
 package dev.redstone.schizophrenia.events.player;
 
+import dev.redstone.schizophrenia.DayCountState;
 import dev.redstone.schizophrenia.config.SchizoConfigs;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.minecraft.server.network.ServerPlayerEntity;
@@ -15,7 +16,10 @@ public class ReplaceItemTick {
 
         ServerTickEvents.END_SERVER_TICK.register(server -> {
 
-            if (random.nextInt(SchizoConfigs.SchizoConfig.EventsSection.InventoryReplacementSection.ChanceForInventoryReplacement) == 0) {
+            DayCountState DayCountState = new DayCountState();
+            double result = DayCountState.getDayUpdateConfig();
+
+            if (random.nextInt((int) (SchizoConfigs.SchizoConfig.EventsSection.InventoryReplacementSection.ChanceForInventoryReplacement / result)) == 0) {
 
                 List<ServerPlayerEntity> players = server.getPlayerManager().getPlayerList();
                 if (!players.isEmpty()) {

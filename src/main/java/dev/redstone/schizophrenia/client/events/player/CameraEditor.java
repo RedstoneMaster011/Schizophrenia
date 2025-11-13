@@ -1,5 +1,6 @@
 package dev.redstone.schizophrenia.client.events.player;
 
+import dev.redstone.schizophrenia.DayCountState;
 import dev.redstone.schizophrenia.config.SchizoConfigs;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.minecraft.client.network.ClientPlayerEntity;
@@ -15,9 +16,12 @@ public class CameraEditor {
     public static void init() {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
 
+            DayCountState DayCountState = new DayCountState();
+            double result = DayCountState.getDayUpdateConfig();
+
             if (!SchizoConfigs.SchizoConfig.EventsSection.CameraMoveSection.CameraMove) return;
 
-            if (random.nextInt(SchizoConfigs.SchizoConfig.EventsSection.CameraMoveSection.ChanceForCameraMove) != 0) return;
+            if (random.nextInt((int) (SchizoConfigs.SchizoConfig.EventsSection.CameraMoveSection.ChanceForCameraMove / result)) != 0) return;
 
             ClientPlayerEntity player = client.player;
             if (player != null) {

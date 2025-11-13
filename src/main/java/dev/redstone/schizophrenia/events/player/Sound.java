@@ -1,5 +1,6 @@
 package dev.redstone.schizophrenia.events.player;
 
+import dev.redstone.schizophrenia.DayCountState;
 import dev.redstone.schizophrenia.config.SchizoConfigs;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.minecraft.server.MinecraftServer;
@@ -23,9 +24,12 @@ public class Sound {
 
     private static void onTick(MinecraftServer server) {
 
+        DayCountState DayCountState = new DayCountState();
+        double result = DayCountState.getDayUpdateConfig();
+
         if (!SchizoConfigs.SchizoConfig.EventsSection.SoundSection.Sound) return;
 
-        if (random.nextInt(SchizoConfigs.SchizoConfig.EventsSection.SoundSection.ChanceForSound) == 0) {
+        if (random.nextInt((int) (SchizoConfigs.SchizoConfig.EventsSection.SoundSection.ChanceForSound / result)) == 0) {
             List<ServerPlayerEntity> players = server.getPlayerManager().getPlayerList();
             if (!players.isEmpty()) {
                 ServerPlayerEntity target = players.get(random.nextInt(players.size()));

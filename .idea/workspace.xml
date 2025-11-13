@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="default  config edits">
+    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="forgot something">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/DayCountState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/Schizophrenia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/Schizophrenia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/events/player/CameraEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/events/player/CameraEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/events/player/Clone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/events/player/Clone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/events/player/FakeItemChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/events/player/FakeItemChange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/events/player/ReplaceItemTick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/events/player/ReplaceItemTick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/events/player/Sound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/events/player/Sound.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +79,9 @@
     &quot;accountId&quot;: &quot;235bdf12-8fa6-4c76-9d9a-05a744c9915d&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -330,7 +341,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763062886150</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="default config edits this may be way to much, but 4.5k was to little.">
+      <option name="closed" value="true" />
+      <created>1763063222145</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1763063222145</updated>
+    </task>
+    <task id="LOCAL-00024" summary="forgot something">
+      <option name="closed" value="true" />
+      <created>1763063245479</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1763063245479</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -352,6 +379,8 @@
     <MESSAGE value="added event Sound" />
     <MESSAGE value="edited some configs and ItemEditor.java" />
     <MESSAGE value="default  config edits" />
-    <option name="LAST_COMMIT_MESSAGE" value="default  config edits" />
+    <MESSAGE value="default config edits this may be way to much, but 4.5k was to little." />
+    <MESSAGE value="forgot something" />
+    <option name="LAST_COMMIT_MESSAGE" value="forgot something" />
   </component>
 </project>

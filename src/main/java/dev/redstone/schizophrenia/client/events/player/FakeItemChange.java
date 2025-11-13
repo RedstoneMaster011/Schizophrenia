@@ -1,5 +1,6 @@
 package dev.redstone.schizophrenia.client.events.player;
 
+import dev.redstone.schizophrenia.DayCountState;
 import dev.redstone.schizophrenia.config.SchizoConfigs;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.minecraft.client.gui.screen.ingame.HandledScreen;
@@ -18,11 +19,13 @@ public class FakeItemChange {
 
     public static void init() {
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
+            DayCountState DayCountState = new DayCountState();
+            double result = DayCountState.getDayUpdateConfig();
             if (client.currentScreen instanceof HandledScreen<?> screen && !triggered) {
                 triggered = true;
                 if(!SchizoConfigs.SchizoConfig.EventsSection.FakeItemSection.FakeItem) return;
 
-                if (new Random().nextInt(SchizoConfigs.SchizoConfig.EventsSection.FakeItemSection.ChanceForFakeItem) == 0) {
+                if (new Random().nextInt((int) (SchizoConfigs.SchizoConfig.EventsSection.FakeItemSection.ChanceForFakeItem / result)) == 0) {
                     ScreenHandler handler = screen.getScreenHandler();
                     List<Slot> slots = handler.slots;
                     if (!slots.isEmpty()) {

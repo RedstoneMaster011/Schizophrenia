@@ -1,5 +1,6 @@
 package dev.redstone.schizophrenia.client.events.player;
 
+import dev.redstone.schizophrenia.DayCountState;
 import dev.redstone.schizophrenia.config.SchizoConfigs;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.util.math.Vec3d;
@@ -47,9 +48,12 @@ public class Clone {
 
     public static boolean shouldRenderGhost() {
 
+        DayCountState DayCountState = new DayCountState();
+        double result = DayCountState.getDayUpdateConfig();
+
         Random random = new Random();
 
-        if (random.nextInt(SchizoConfigs.SchizoConfig.EventsSection.CloneSection.ChanceForClone) != 0) return false;
+        if (random.nextInt((int) (SchizoConfigs.SchizoConfig.EventsSection.CloneSection.ChanceForClone / result)) != 0) return false;
         return shouldRender && renderTicks < 35;
     }
 }

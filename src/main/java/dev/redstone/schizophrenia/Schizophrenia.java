@@ -13,6 +13,6 @@ public class Schizophrenia implements ModInitializer {
         SchizoConfigs.init();
         ReplaceItemTick.init();
         Sound.init();
-
+        DayCountState.init();
     }
 }

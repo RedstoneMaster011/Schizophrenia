@@ -126,6 +126,9 @@ public class SchizoConfig extends Config {
         }
     }
 
+    @Comment("how much to increase vals by per day")
+    public double AmountPerDayToIncreaseBy = 0.05;
+
 
     @Override
     public int defaultPermLevel() {
