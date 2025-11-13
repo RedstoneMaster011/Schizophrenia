@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="forgot smth">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="finily removed /run/">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/FakeItemChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/FakeItemComponents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/mixin/HandledScreenAccessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/mixin/ItemRendererMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/schizophrenia/textures/item/fakeitem.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/SchizophreniaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/SchizophreniaClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/player/ItemEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/player/ItemEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/player/ReplaceItemTick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/player/ReplaceItemTick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schizophrenia.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schizophrenia.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,29 +90,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Gradle.Build Schizophrenia.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.C:/Users/Lucas/Desktop/ModdingFiles/Schizophrenia [wrapper].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Schizophrenia [:net.fabricmc.devlaunchinjector.Main.main()].executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.Schizophrenia [clean].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Gradle.Build Schizophrenia.executor": "Run",
+    "Gradle.C:/Users/Lucas/Desktop/ModdingFiles/Schizophrenia [wrapper].executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.Schizophrenia [:net.fabricmc.devlaunchinjector.Main.main()].executor": "Debug",
+    "Gradle.Schizophrenia [clean].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lucas\Desktop\ModdingFiles\Schizophrenia\src\main\resources\assets\schizophrenia\textures\item" />
       <recent name="C:\Users\Lucas\Desktop\ModdingFiles\Schizophrenia\run\mods" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -226,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762989288317</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="finily removed /run/">
+      <option name="closed" value="true" />
+      <created>1762989318722</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1762989318722</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -236,6 +256,7 @@
     <MESSAGE value="changed gradle.properties" />
     <MESSAGE value="changed README.md" />
     <MESSAGE value="forgot smth" />
-    <option name="LAST_COMMIT_MESSAGE" value="forgot smth" />
+    <MESSAGE value="finily removed /run/" />
+    <option name="LAST_COMMIT_MESSAGE" value="finily removed /run/" />
   </component>
 </project>

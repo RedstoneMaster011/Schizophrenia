@@ -6,6 +6,8 @@
   "mixins": [
   ],
   "client": [
+    "HandledScreenAccessor",
+    "ItemRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1

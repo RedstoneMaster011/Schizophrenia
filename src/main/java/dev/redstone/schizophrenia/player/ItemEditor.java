@@ -15,7 +15,7 @@ public class ItemEditor {
 
     public static void ReplaceItemSlot(ServerPlayerEntity player) {
 
-        if(!SchizoConfigs.SchizoConfig.ItemEditingSection.InventoryReplacement) return;
+        if(!SchizoConfigs.SchizoConfig.EventsSection.InventoryReplacementSection.InventoryReplacement) return;
 
         PlayerInventory inv = player.getInventory();
         int slot = Random.nextInt(inv.size());
@@ -40,7 +40,7 @@ public class ItemEditor {
 
     private static ItemStack getMaterialReplacement(Item item) {
 
-        if(!SchizoConfigs.SchizoConfig.ItemEditingSection.InventoryReplacement) return null;
+        if(!SchizoConfigs.SchizoConfig.EventsSection.InventoryReplacementSection.InventoryReplacement) return null;
 
         if (item.getTranslationKey().toLowerCase().contains("leather")) return new ItemStack(Items.LEATHER, 6);
         if (item.getTranslationKey().toLowerCase().contains("gold")) return new ItemStack(Items.GOLD_INGOT, 6);

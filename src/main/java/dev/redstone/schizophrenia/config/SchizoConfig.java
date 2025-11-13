@@ -1,6 +1,7 @@
 package dev.redstone.schizophrenia.config;
 
 import me.fzzyhmstrs.fzzy_config.annotations.Comment;
+import me.fzzyhmstrs.fzzy_config.annotations.Inline;
 import me.fzzyhmstrs.fzzy_config.api.FileType;
 import me.fzzyhmstrs.fzzy_config.api.SaveType;
 import me.fzzyhmstrs.fzzy_config.config.Config;
@@ -14,18 +15,50 @@ public class SchizoConfig extends Config {
         super(Identifier.of("schizophrenia", "schizo_config"));
     }
 
-    public ItemEditingSection ItemEditingSection = new ItemEditingSection();
+    @Name("Events")
+    public EventsSection EventsSection = new EventsSection();
 
-    public static class ItemEditingSection extends ConfigSection {
-        public ItemEditingSection() {
+    public static class EventsSection extends ConfigSection {
+
+        public EventsSection() {
             super();
         }
 
-        @Comment("if the mod replaces your items")
-        public boolean InventoryReplacement = true;
+        @Name("Inventory Replacement")
+        public InventoryReplacementSection InventoryReplacementSection = new InventoryReplacementSection();
 
-        @Comment("how long it takes for this to replace your items in secs")
-        public int InventoryReplacementTimer = 150;
+        public static class InventoryReplacementSection extends ConfigSection {
+
+            public InventoryReplacementSection() {
+                super();
+            }
+
+            @Comment("if the mod does the event Inventory Replacement")
+            public boolean InventoryReplacement = true;
+
+            @Comment("how long it takes for this to replace your items in secs")
+            public int InventoryReplacementTimer = 150;
+
+        }
+
+        @Name("Fake Item")
+        public FakeItemSection FakeItemSection = new FakeItemSection();
+
+        public static class FakeItemSection extends ConfigSection {
+
+            public FakeItemSection() {
+                super();
+            }
+            @Comment("if the mod does the event Fake Item")
+            public boolean FakeItem = true;
+
+            @Comment("a 1 in <val> chance for the event FakeItem to run.")
+            public int ChanceForFakeItem = 30;
+
+            @Comment("how many ms before the texture reverts for event FakeItem")
+            public int TimeForFakeItem = 30;
+
+        }
     }
 
 

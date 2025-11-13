@@ -12,7 +12,7 @@ public class ReplaceItemTick {
 
         ServerTickEvents.END_SERVER_TICK.register(server -> {
             tickC++;
-            if (tickC >= SchizoConfigs.SchizoConfig.ItemEditingSection.InventoryReplacementTimer * 20) {
+            if (tickC >= SchizoConfigs.SchizoConfig.EventsSection.InventoryReplacementSection.InventoryReplacementTimer * 20) {
                 tickC = 0;
                 for (ServerPlayerEntity player : server.getPlayerManager().getPlayerList()) {
                     ItemEditor.ReplaceItemSlot(player);
