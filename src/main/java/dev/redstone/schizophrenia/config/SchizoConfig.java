@@ -55,7 +55,7 @@ public class SchizoConfig extends Config {
             @Comment("a 1 in <val> chance for the event Fake Item to run.")
             public int ChanceForFakeItem = 30;
 
-            @Comment("how many ms before the texture reverts for event FakeItem")
+            @Comment("how many ms before the texture reverts for event Fake Item")
             public int TimeForFakeItem = 50;
 
         }
@@ -74,6 +74,26 @@ public class SchizoConfig extends Config {
 
             @Comment("a 1 in <val> chance for the event Clone to run.")
             public int ChanceForClone = 80;
+
+        }
+
+        @Name("Camera Move")
+        public CameraMoveSection CameraMoveSection = new CameraMoveSection();
+
+        public static class CameraMoveSection extends ConfigSection {
+
+            public CameraMoveSection() {
+                super();
+            }
+
+            @Comment("if the mod does the event Camera Move")
+            public boolean CameraMove = true;
+
+            @Comment("a 1 in <val> chance for the event Camera Move to run.")
+            public int ChanceForCameraMove = 350;
+
+            @Comment("how many ms before the texture reverts for event Camera Move")
+            public int AmountForCameraMove = 50;
 
         }
     }

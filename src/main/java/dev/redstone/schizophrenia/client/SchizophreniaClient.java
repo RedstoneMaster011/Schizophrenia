@@ -1,5 +1,6 @@
 package dev.redstone.schizophrenia.client;
 
+import dev.redstone.schizophrenia.client.events.player.CameraEditor;
 import dev.redstone.schizophrenia.client.events.player.Clone;
 import dev.redstone.schizophrenia.client.events.player.CloneRenderer;
 import dev.redstone.schizophrenia.client.events.player.FakeItemChange;
@@ -13,6 +14,7 @@ public class SchizophreniaClient implements ClientModInitializer {
     public void onInitializeClient() {
 
         FakeItemChange.init();
+        CameraEditor.init();
         ClientTickEvents.END_CLIENT_TICK.register(Clone::onClientTick);
         WorldRenderEvents.AFTER_ENTITIES.register(CloneRenderer::onWorldRender);
 
