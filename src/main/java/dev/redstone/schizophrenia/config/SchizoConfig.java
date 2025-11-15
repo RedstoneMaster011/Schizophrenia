@@ -92,7 +92,7 @@ public class SchizoConfig extends Config {
             public boolean CameraMove = true;
 
             @Comment("a 1 in <val> chance for the event Camera Move to run.")
-            public int ChanceForCameraMove = 15000;
+            public int ChanceForCameraMove = 12500;
 
             @Comment("how many px the event Camera Moves")
             public int AmountForCameraMove = 5;
@@ -112,7 +112,33 @@ public class SchizoConfig extends Config {
             public boolean Sound = true;
 
             @Comment("a 1 in <val> chance for the event Sound to run.")
-            public int ChanceForSound = 15000;
+            public int ChanceForSound = 12500;
+
+
+            @Comment("list of sounds for event Sound")
+            public ValidatedList<Identifier> sounds = new ValidatedIdentifier().toList(
+                    Identifier.of("minecraft:entity.creeper.primed"),
+                    Identifier.of("minecraft:block.stone.break"),
+                    Identifier.of("minecraft:block.stone.step"),
+                    Identifier.of("minecraft:ambient.cave"),
+                    Identifier.of("minecraft:entity.egg.throw")
+            );
+        }
+
+        @Name("Hallucination")
+        public HallucinationSection HallucinationSection = new HallucinationSection();
+
+        public static class HallucinationSection extends ConfigSection {
+
+            public HallucinationSection() {
+                super();
+            }
+
+            @Comment("if the mod does the event Sound")
+            public boolean Hallucination = true;
+
+            @Comment("a 1 in <val> chance for the event Sound to run.")
+            public int ChanceForHallucination = 10000;
 
 
             @Comment("list of sounds for event Sound")
