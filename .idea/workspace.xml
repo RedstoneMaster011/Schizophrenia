@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="added new event Hallucination, like event Clone, but watches you from a dis,">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/Schizophrenia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/Schizophrenia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -425,7 +426,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763235547721</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="added new event Hallucination, like event Clone, but watches you from a dis,">
+      <option name="closed" value="true" />
+      <created>1763235578328</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1763235578328</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -139,16 +139,6 @@ public class SchizoConfig extends Config {
 
             @Comment("a 1 in <val> chance for the event Sound to run.")
             public int ChanceForHallucination = 10000;
-
-
-            @Comment("list of sounds for event Sound")
-            public ValidatedList<Identifier> sounds = new ValidatedIdentifier().toList(
-                    Identifier.of("minecraft:entity.creeper.primed"),
-                    Identifier.of("minecraft:block.stone.break"),
-                    Identifier.of("minecraft:block.stone.step"),
-                    Identifier.of("minecraft:ambient.cave"),
-                    Identifier.of("minecraft:entity.egg.throw")
-            );
         }
     }
 
