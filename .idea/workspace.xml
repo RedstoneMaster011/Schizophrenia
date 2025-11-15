@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="added new event Hallucination, like event Clone, but watches you from a dis,">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" afterDir="false" />
+    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="oops left some old code in">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/schizophrenia/textures/entity/hallucination.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/schizophrenia/textures/entity/hallucination.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Lucas/Desktop/ModdingFiles/Schizophrenia/src/main/resources",
+    "last_opened_file_path": "C:/Users/Lucas/Desktop/ModdingFiles/Schizophrenia/src/main/resources/assets/schizophrenia/textures/entity",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -113,6 +112,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lucas\Desktop\ModdingFiles\Schizophrenia\src\main\resources\assets\schizophrenia\textures\entity" />
       <recent name="C:\Users\Lucas\Desktop\ModdingFiles\Schizophrenia\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -434,11 +434,18 @@
       <option name="project" value="LOCAL" />
       <updated>1763235578328</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="oops left some old code in">
+      <option name="closed" value="true" />
+      <created>1763235796231</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1763235796231</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed gradle.properties" />
     <MESSAGE value="changed README.md" />
     <MESSAGE value="forgot smth" />
     <MESSAGE value="finily removed /run/" />
@@ -463,6 +470,7 @@
     <MESSAGE value="more config changes" />
     <MESSAGE value="updated README.md" />
     <MESSAGE value="added new event Hallucination, like event Clone, but watches you from a dis," />
-    <option name="LAST_COMMIT_MESSAGE" value="added new event Hallucination, like event Clone, but watches you from a dis," />
+    <MESSAGE value="oops left some old code in" />
+    <option name="LAST_COMMIT_MESSAGE" value="oops left some old code in" />
   </component>
 </project>
