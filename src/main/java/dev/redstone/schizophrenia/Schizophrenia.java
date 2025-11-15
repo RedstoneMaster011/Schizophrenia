@@ -17,7 +17,6 @@ public class Schizophrenia implements ModInitializer {
         Sound.init();
         DayCountState.init();
         SchizoEntities.init();
-
         Hallucination.init();
     }
 }

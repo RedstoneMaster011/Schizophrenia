@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="updated README.md">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/renderer/HallucinationRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/entity/HallucinationEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/entity/SchizoEntities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/events/player/Hallucination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/schizophrenia/textures/entity/hallucination.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="019d5345-9729-4d81-9b69-186d81f9283f" name="Changes" comment="added new event Hallucination, like event Clone, but watches you from a dis,">
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/Schizophrenia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/Schizophrenia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/SchizophreniaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/client/SchizophreniaClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/redstone/schizophrenia/config/SchizoConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -425,11 +417,18 @@
       <option name="project" value="LOCAL" />
       <updated>1763072568708</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added new event Hallucination, like event Clone, but watches you from a dis,">
+      <option name="closed" value="true" />
+      <created>1763235547721</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1763235547721</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="renamed ReplaceItem ReplaceItemTick" />
     <MESSAGE value="changed gradle.properties" />
     <MESSAGE value="changed README.md" />
     <MESSAGE value="forgot smth" />
@@ -454,6 +453,7 @@
     <MESSAGE value="fixed a game crashing but on day 1581 or higher" />
     <MESSAGE value="more config changes" />
     <MESSAGE value="updated README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated README.md" />
+    <MESSAGE value="added new event Hallucination, like event Clone, but watches you from a dis," />
+    <option name="LAST_COMMIT_MESSAGE" value="added new event Hallucination, like event Clone, but watches you from a dis," />
   </component>
 </project>
