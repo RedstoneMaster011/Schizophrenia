@@ -140,6 +140,22 @@ public class SchizoConfig extends Config {
             @Comment("a 1 in <val> chance for the event Sound to run.")
             public int ChanceForHallucination = 10000;
         }
+
+        @Name("Message")
+        public MessageSection MessageSection = new MessageSection();
+
+        public static class MessageSection extends ConfigSection {
+
+            public MessageSection() {
+                super();
+            }
+
+            @Comment("if the mod does the event Message")
+            public boolean Message = true;
+
+            @Comment("a 1 in <val> chance for the event Message to run.")
+            public int ChanceForMessage = 12500;
+        }
     }
 
     @Comment("how much to increase vals by per day")
